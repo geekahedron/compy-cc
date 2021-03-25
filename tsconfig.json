@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "target": "ES2019",
+      "outDir": "dist",
+      "lib": [
+          "ES2019"
+      ],
+      "sourceMap": false,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "incremental": true,
+      "esModuleInterop": true,
+      "types": [
+          "node"
+      ],
+      "typeRoots": [
+          "node_modules/@types"
+      ],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "baseUrl": ".",
+      "paths": {
+          "@classes/*": [
+              "classes/*"
+          ],
+          "@config": [
+              "config.json"
+          ],
+          "@json/*": [
+              "assets/json/*"
+          ],
+          "@services/*": [
+              "services/*"
+          ],
+          "@types/*": [
+              "types/*"
+          ],
+          "@util/*": [
+              "util/*"
+          ]
+      }
+  },
+  "exclude": [
+      "node_modules",
+      "tsconfig-paths-bootstrap.js"
+  ]
+}

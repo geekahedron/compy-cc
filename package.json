@@ -1,0 +1,37 @@
+{
+  "name": "compy-devl",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyfiles": "copyfiles assets/* dist",
+    "build": "tsc -p tsconfig.json && npm run copyfiles",
+    "watch": "tsc -w -p tsconfig.json",
+    "start": "node -r ./tsconfig-paths-bootstrap.js ./dist/bin/www.js",
+    "dev": "nodemon -r ./tsconfig-paths-bootstrap.js -q --inspect -w dist ./dist/bin/www.js",
+    "watch-dev": "concurrently --kill-others -n tsc,nodemon -c blue,magenta \"npm run watch\" \"npm run dev\"",
+    "prod": "pm2 start .\\dist\\bin\\www.js --node-args=\"-r ./tsconfig-paths-bootstrap.js\""
+  },
+  "author": "geekahedron",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-handlebars": "^5.2.1",
+    "handlebars": "^4.7.7",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.6.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.35",
+    "copyfiles": "^2.4.1",
+    "tslint": "^5.20.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/17eb41cb-994c-4cf5-8933-c45b1c44ed34/resourceGroups/Compy-devl/providers/Microsoft.Web/sites/Compy-devl",
+    "appService.deploySubpath": "."
+}

@@ -1,0 +1,749 @@
+{
+    "Albedo": {
+        "Name": "Albedo",
+        "Description": "Albedo is a tank that can shield allies and deal AoE damage to enemies.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Dimensional",
+        "Tier": "Ascended"
+    },
+    "Ainz": {
+        "Name": "Ainz Ooal Gown",
+        "Description": "Ainz Ooal Gown is a mage caster with high AoE burst damage.",
+        "Class": "Mage",
+        "Role": "DPS",
+        "Type": "Intelligence",
+        "Faction": "Dimensional",
+        "Tier": "Ascended"
+    },
+    "Ezio": {
+        "Name": "Ezio",
+        "Description": "Ezio is a melee assassin that can debuff enemies and avoid their attacks.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Dimensional",
+        "Tier": "Ascended"
+    },
+    "Nakoruru": {
+        "Name": "Nakoruru",
+        "Description": "Nakoruru is a melee DPS that can interrupt enemies.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Dimensional",
+        "Tier": "Ascended"
+    },
+    "Ukyo": {
+        "Name": "Ukyo",
+        "Description": "Ukyo is a melee DPS that can teleport to enemies.",
+        "Class": "Warrior",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Dimensional",
+        "Tier": "Ascended"
+    },
+    "Arthur": {
+        "Name": "Arthur",
+        "Description": "Arthur is a tank that can buff allies behind him.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Dimensional",
+        "Tier": "Ascended"
+    },
+    "Oscar": {
+        "Name": "Oscar",
+        "Description": "Oscar is a melee assassin that uses his knives to teleport and slice enemies up.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Cecilia": {
+        "Name": "Cecilia",
+        "Description": "Cecilia is a melee assassin with high single target damage.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Rigby": {
+        "Name": "Rigby",
+        "Description": "Rigby is a tank that can deal AoE damage.",
+        "Class": "Warrior",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Gwyneth": {
+        "Name": "Gwyneth",
+        "Description": "Gwyneth is a ranged hero that shoots enemies down with her bow. She's more powerful when allies are near her on the battlefield. Extremely high burst damage potential.",
+        "Class": "Ranger",
+        "Role": "DPS, Debuffer",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Rosaline": {
+        "Name": "Rosaline",
+        "Description": "Rosaline is a very unique hero that will follow her strongest ally in battle to heal and buff them.",
+        "Class": "Support",
+        "Role": "Support, Healer",
+        "Type": "Intelligence",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Rowan": {
+        "Name": "Rowan",
+        "Description": "Rowan uses his gold coins to grant allies energy and stun enemies. He can also drop health potions for allies.",
+        "Class": "Support",
+        "Role": "Support, Healer",
+        "Type": "Intelligence",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Hendrik": {
+        "Name": "Hendrik",
+        "Description": "Hendrik is a very durable and CC heavy tank. He can also protect one backline ally from fatal damage once per battle.",
+        "Class": "Tank",
+        "Role": "Tank, CC",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Lucius": {
+        "Name": "Lucius",
+        "Description": "Lucius is a strong support/tank hybrid. He can heal and shield allies, but still take a beating on the frontline. Damage output is low though.",
+        "Class": "Tank",
+        "Role": "Tank (Heal, Shield)",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Belinda": {
+        "Name": "Belinda",
+        "Description": "Belinda is a magic caster that can buff her allies with crit and deal high AoEburst damage to enemies.",
+        "Class": "Mage",
+        "Role": "DPS (AoE, Buffer)",
+        "Type": "Intelligence",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Fawkes": {
+        "Name": "Fawkes",
+        "Description": "Fawkes is a ranged DPS that can remove buffs & apply debuffs to enemies. He can also lock an enemy inside a coffin for up to 9 seconds, completely taking them out of the battle.",
+        "Class": "Ranger",
+        "Role": "DPS (CC)",
+        "Type": "Agility",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Estrilda": {
+        "Name": "Estrilda",
+        "Description": "Estrilda can provide energy regen & damage reduction for her allies. She's also capable of decent burst damage.",
+        "Class": "Warrior",
+        "Role": "DPS (Buffer, Burst)",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Thane": {
+        "Name": "Thane",
+        "Description": "Thane is a glass cannon melee DPS that relies heavily on critical strikes. His ultimate makes him immune to all damage, but he's fairly fragile before level 141.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Raine": {
+        "Name": "Raine",
+        "Description": "Raine is a strong Support/DPS hero that can increase the damage taken by heroes and regen allies energy. Her ult can snowball games, but she's pretty useless on her own.",
+        "Class": "Support",
+        "Role": "Support, DPS",
+        "Type": "Agility",
+        "Faction": "Lightbearers",
+        "Tier": "Ascended"
+    },
+    "Hogan": {
+        "Name": "Hogan",
+        "Description": "Hogan is a high HP tank with some decent CC that can be applied quickly. His damage is lacking though compared to other tanks.",
+        "Class": "Tank",
+        "Role": "Tank (CC)",
+        "Type": "Strength",
+        "Faction": "Lightbearers",
+        "Tier": "Legendary"
+    },
+    "Mirael": {
+        "Name": "Mirael",
+        "Description": "Mirael is an anti-magic hero with decent AoE burst damage.",
+        "Class": "Mage",
+        "Role": "DPS",
+        "Type": "Intelligence",
+        "Faction": "Lightbearers",
+        "Tier": "Legendary"
+    },
+    "Morvus": {
+        "Name": "Morvus",
+        "Description": "Morvus is a ranged DPS with high sustain AoE damage. He can stun enemies and finish off weak ones.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Lightbearers",
+        "Tier": "Legendary"
+    },
+    "Angelo": {
+        "Name": "Angelo",
+        "Description": "Angelo is one of the few pure healers in the game. His heals are quite weak and he does no damage, but his silence can be useful sometimes.",
+        "Class": "Support",
+        "Role": "Support (Heal, Silence)",
+        "Type": "Intelligence",
+        "Faction": "Lightbearers",
+        "Tier": "Legendary"
+    },
+    "Drez": {
+        "Name": "Drez",
+        "Description": "Drez is a melee/ranged hybrid hero.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Anoki": {
+        "Name": "Anoki",
+        "Description": "Anoki is an offensive based tank with crowd control.",
+        "Class": "Tank",
+        "Role": "Tank, CC",
+        "Type": "Strength",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Skriath": {
+        "Name": "Skriath",
+        "Description": "Skriath is a mage capable of controlling sand and dealing AoE damage to enemies.",
+        "Class": "Mage",
+        "Role": "DPS, AoE",
+        "Type": "Intelligence",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Tidus": {
+        "Name": "Tidus",
+        "Description": "Tidus is a bursty melee DPS hero that can slice his enemies down.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Satrana": {
+        "Name": "Satrana",
+        "Description": "Satrana is a melee hero that strikes her enemies down with fire damage. She excels in burst and AoE damage.",
+        "Class": "Mage",
+        "Role": "Burst, AoE",
+        "Type": "Intelligence",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Antandra": {
+        "Name": "Antandra",
+        "Description": "Antandra is a tank hero that is capable of dealing burst damage to enemies.",
+        "Class": "Tank",
+        "Role": "Tank, Burst",
+        "Type": "Agility",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Safiya": {
+        "Name": "Safiya",
+        "Description": "Safiya is a fire mage capable of casting powerful orbs to destroy her enemies. She can also buff allies and debuff enemies.",
+        "Class": "Mage",
+        "Role": "DPS (Buffer, Debuffer)",
+        "Type": "Intelligence",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Khasos": {
+        "Name": "Khasos",
+        "Description": "Khasos is a ranged/melee hybrid that provides lifeleech for his allies.",
+        "Class": "Warrior",
+        "Role": "DPS",
+        "Type": "Strength",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Brutus": {
+        "Name": "Brutus",
+        "Description": "Brutus is an extremely strong melee DPS that can carry teams. His kit includes an immunity shield, life-leech & damage scaling with low HP. He's essential for any team.",
+        "Class": "Tank",
+        "Role": "DPS, Tank",
+        "Type": "Strength",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Numisu": {
+        "Name": "Numisu",
+        "Description": "Numisu summons totems to aid his allies. The totems can provide healing to his team, and distract enemies by taunting them.",
+        "Class": "Intelligence",
+        "Role": "Support (Heal, Buffer)",
+        "Type": "",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Warek": {
+        "Name": "Warek",
+        "Description": "Warek is a DPS/Tank hybrid that can quickly take out an enemy frontline hero with his Bonebreaker, but it can also backfire and get your backline killed.",
+        "Class": "Warrior",
+        "Role": "DPS (CC)",
+        "Type": "Strength",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Vurk": {
+        "Name": "Vurk",
+        "Description": "Vurk is a ranged DPS with good sustain damage, especially when enemies are closer together.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Skreg": {
+        "Name": "Skreg",
+        "Description": "Skreg is a unique tank that utilizes his mount to stomp and knockdown enemies.",
+        "Class": "Tank",
+        "Role": "Tank (CC)",
+        "Type": "Strength",
+        "Faction": "Maulers",
+        "Tier": "Ascended"
+    },
+    "Saveas": {
+        "Name": "Saveas",
+        "Description": "Saveas sacrifices his own health to increase his damage, the more HP he has, the more DPS he does. Although he can take a lot of hits, he still needs to be placed behind a tank on the frontline. Union buff is important.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Maulers",
+        "Tier": "Legendary"
+    },
+    "Golus": {
+        "Name": "Golus",
+        "Description": "Golus is a very basic tank. He's capable of taking a lot of damage and can knockback enemies.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Maulers",
+        "Tier": "Legendary"
+    },
+    "Ankhira": {
+        "Name": "Ankhira",
+        "Description": "Ankhira is a squishy hero that can increase her allies physical damage by reducing enemy armor. She can also stun enemies and drain their energy.",
+        "Class": "Mage",
+        "Role": "DPS (Debuffer, CC)",
+        "Type": "Intelligence",
+        "Faction": "Maulers",
+        "Tier": "Legendary"
+    },
+    "Saurus": {
+        "Name": "Saurus",
+        "Description": "Saurus is a melee DPS with high boss damage.",
+        "Class": "Warrior",
+        "Role": "DPS",
+        "Type": "Strength",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Solise": {
+        "Name": "Solise",
+        "Description": "Solise is a mage that can summon flowers to aid her in battle.",
+        "Class": "Mage",
+        "Role": "DPS, CC",
+        "Type": "Intelligence",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Lorsan": {
+        "Name": "Lorsan",
+        "Description": "Lorsan can deal AoE damage, increase enemy damage taken and shield allies.",
+        "Class": "Mage",
+        "Role": "DPS, AoE",
+        "Type": "Intelligence",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Gorvo": {
+        "Name": "Gorvo",
+        "Description": "Gorvo is a tank capable of stunning enemies and shielding himself.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Eironn": {
+        "Name": "Eironn",
+        "Description": "Eironn is a melee DPS that can pull enemies towards him, summon tornadoes and deal increased damage to shielded enemies.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Kaz": {
+        "Name": "Kaz",
+        "Description": "Kaz is hero that relies heavily on dodging enemy attacks. She can act as a tank and excels in long battles.",
+        "Class": "Ranger",
+        "Role": "Damage Dealer",
+        "Type": "Agility",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Lyca": {
+        "Name": "Lyca",
+        "Description": "Lyca is a support that can provide her team with a strong opener. She can buff allies and give them energy.",
+        "Class": "Ranger",
+        "Role": "Damage Dealer (Buffer)",
+        "Type": "Agility",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Nemora": {
+        "Name": "Nemora",
+        "Description": "Nemora can heal allies and charm enemies to attack each other.",
+        "Class": "Support",
+        "Role": "Support (Heal, CC)",
+        "Type": "Intelligence",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Seirus": {
+        "Name": "Seirus",
+        "Description": "Seirus is a control oriented tank that can CC enemies and deal AoE damage.",
+        "Class": "Warrior",
+        "Role": "Tank (CC)",
+        "Type": "Strength",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Tasi": {
+        "Name": "Tasi",
+        "Description": "Tasi is a support hero with powerful CC that teleport away from enemies. Her ult can lockdown an entire team, and she can also banish the strongest enemy at the start of the game.",
+        "Class": "Support",
+        "Role": "Support (CC, Heal)",
+        "Type": "Intelligence",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Ulmus": {
+        "Name": "Ulmus",
+        "Description": "Ulmus is a tank that can heal himself and allies.",
+        "Class": "Tank",
+        "Role": "Tank, DPS, Heal, CC",
+        "Type": "Strength",
+        "Faction": "Wilders",
+        "Tier": "Ascended"
+    },
+    "Ira": {
+        "Name": "Ira",
+        "Description": "Ira can debuff enemies and has an ult that can kill enemies quickly if there is fewer of them to target.",
+        "Class": "Ranger",
+        "Role": "DPS (Debuffer)",
+        "Type": "Agility",
+        "Faction": "Wilders",
+        "Tier": "Legendary"
+    },
+    "Ogi": {
+        "Name": "Ogi",
+        "Description": "Ogi is a weak tank with decent CC. He relies heavily on being backed up by strong DPS.",
+        "Class": "Tank",
+        "Role": "Tank (CC)",
+        "Type": "Strength",
+        "Faction": "Wilders",
+        "Tier": "Legendary"
+    },
+    "Arden": {
+        "Name": "Arden",
+        "Description": "Arden is a support with one of the best CCs in the game that can root up to 3 enemies at the same time.",
+        "Class": "Mage",
+        "Role": "Support (CC)",
+        "Type": "Intelligence",
+        "Faction": "Wilders",
+        "Tier": "Legendary"
+    },
+    "Silas": {
+        "Name": "Silas",
+        "Description": "Silas is currently the only Graveborn that's capable of healing other heroes.",
+        "Class": "Support",
+        "Role": "Support",
+        "Type": "Intelligence",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Theowyn": {
+        "Name": "Theowyn",
+        "Description": "Theowyn is a melee DPS that can turn into a spectral and curse her enemies.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Daimon": {
+        "Name": "Daimon",
+        "Description": "Daimon is an AoE tank that can steal health from enemies and turn it into a shield for himself.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Torne": {
+        "Name": "Torne",
+        "Description": "Torne is an offensive based tank.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Oden": {
+        "Name": "Oden",
+        "Description": "Oden is a mage that can drain the energy from enemies and deal AoE damage.",
+        "Class": "Mage",
+        "Role": "DPS, AoE",
+        "Type": "Intelligence",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Izold": {
+        "Name": "Izold",
+        "Description": "Izold is a tank that can self-regenerate health during battle. With his SI, he can increase his attack power by taking damage.",
+        "Class": "Warrior",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Kelthur": {
+        "Name": "Kelthur",
+        "Description": "Kelthur is a shuriken wielding DPS hero, capable of displacing enemies and resurrecting as a ghost when he dies.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Baden": {
+        "Name": "Baden",
+        "Description": "Baden can summon phantoms to vanquish his foes. The more phantoms on the battlefield, the higher his DPS output will be and they'll also reduce his damage taken.",
+        "Class": "Warrior",
+        "Role": "DPS, Off-Tank",
+        "Type": "Agility",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Nara": {
+        "Name": "Nara",
+        "Description": "Nara is a very disruptive hero on the battlefield, capable of using stuns, grips and can drain energy from enemies when they attack her. She can also bypass their defense and invincibility effects.",
+        "Class": "Warrior",
+        "Role": "Burst DPS",
+        "Type": "Strength",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Ferael": {
+        "Name": "Ferael",
+        "Description": "Ferael is all about control. He can stun enemies and decrease their energy regen. He lacks burst, but his damage can be quite high over longer battles. Many of his top tier skill unlocks are at higher levels.",
+        "Class": "Ranger",
+        "Role": "DPS, CC",
+        "Type": "Agility",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Grezhul": {
+        "Name": "Grezhul",
+        "Description": "Grezhul can summon undead minions that can distract enemies. He can also provide an anti-magic shield for his allies, this shield absorbs more damage for other graveborns.",
+        "Class": "Tank",
+        "Role": "Tank, Anti-Magic Shield",
+        "Type": "Strength",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Isabella": {
+        "Name": "Isabella",
+        "Description": "Isabella can deal high burst damage to help nuke down weak targets for a fast kill.",
+        "Class": "Mage",
+        "Role": "Burst DPS",
+        "Type": "Intelligence",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Shemira": {
+        "Name": "Shemira",
+        "Description": "Shemira is a powerful mage capable of dealing massive AoE damage to enemies, while also leeching life from them. She can also silence one enemy mage.",
+        "Class": "Mage",
+        "Role": "DPS, CC, AoE",
+        "Type": "Intelligence",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Thoran": {
+        "Name": "Thoran",
+        "Description": "Thoran is a tank that can self-resurrect once when killed during a battle. He will do more damage to lower level enemies and can redirect damage to the weakest enemy.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Graveborn",
+        "Tier": "Ascended"
+    },
+    "Niru": {
+        "Name": "Niru",
+        "Description": "Niru is a mage that can tank enemies and heal allies with his lifeleech. He grows in strength when an enemy is killed.",
+        "Class": "Mage",
+        "Role": "DPS, Healer",
+        "Type": "Intelligence",
+        "Faction": "Graveborn",
+        "Tier": "Legendary"
+    },
+    "Silvina": {
+        "Name": "Silvina",
+        "Description": "Silvina is an assassin style hero that can nuke down mages at the start of the game.",
+        "Class": "Ranger",
+        "Role": "Burst DPS",
+        "Type": "Agility",
+        "Faction": "Graveborn",
+        "Tier": "Legendary"
+    },
+    "Vedan": {
+        "Name": "Vedan",
+        "Description": "Vedan can overwhelm enemies with his life-leech and burst damage. He cannot be attacked while he's using his ult.",
+        "Class": "Ranger",
+        "Role": "DPS, Tank",
+        "Type": "Agility",
+        "Faction": "Graveborn",
+        "Tier": "Legendary"
+    },
+    "Zaphrael": {
+        "Name": "Zaphrael",
+        "Description": "Zaphrael is a glass cannon mage that teleports into enemies and deals AoE damage.",
+        "Class": "Mage",
+        "Role": "DPS",
+        "Type": "Intelligence",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "Flora": {
+        "Name": "Flora",
+        "Description": "Flora is a mage that flies up in the sky and deals damage to enemies from above. She can't be targetted by anyone during a battle.",
+        "Class": "Mage",
+        "Role": "DPS",
+        "Type": "Intelligence",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "WuKong": {
+        "Name": "Wu Kong",
+        "Description": "Wu Kong can clone himself to avoid enemy damage and CC.",
+        "Class": "Warrior",
+        "Role": "Tank, DPS",
+        "Type": "Strength",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "Talene": {
+        "Name": "Talene",
+        "Description": "Talene can never die, she will be reborn after every death. She can also heal 2 allies when 10% of her HP is lost.",
+        "Class": "Support",
+        "Role": "Everything",
+        "Type": "Agility",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "Orthros": {
+        "Name": "Orthros",
+        "Description": "Orthros is a tank that bends the rules of time to defeat his enemies.",
+        "Class": "Tank",
+        "Role": "Tank, Debuffer",
+        "Type": "Strength",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "Twins": {
+        "Name": "Elijah & Lailah",
+        "Description": "Elijah & Lailah are two heroes for the price of one. They can both fight separately on the battlefield. One is a melee and the other is a mage.",
+        "Class": "Support",
+        "Role": "Buffer, Regen",
+        "Type": "Intelligence",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "Athalia": {
+        "Name": "Athalia",
+        "Description": "Athalia is a unique melee assassin. She will instantly attack the enemy opposite it her with burst damage, making her positioning very important. She takes less damage when more allies are alive.",
+        "Class": "Ranger",
+        "Role": "Assassin, Burst",
+        "Type": "Agility",
+        "Faction": "Celestial",
+        "Tier": "Ascended"
+    },
+    "Lucretia": {
+        "Name": "Lucretia",
+        "Description": "Lucretia is a melee hero that can hunt the highest enemy DPS and deal AoE damage. Her SI allows her to gain attack rating when her allies die, allowing for some crazy DPS in the right scenario.",
+        "Class": "Ranger",
+        "Role": "DPS",
+        "Type": "Agility",
+        "Faction": "Hypogean",
+        "Tier": "Ascended"
+    },
+    "Mezoth": {
+        "Name": "Mezoth",
+        "Description": "Mezoth is a tank that can devour enemies.",
+        "Class": "Tank",
+        "Role": "Tank",
+        "Type": "Strength",
+        "Faction": "Hypogean",
+        "Tier": "Ascended"
+    },
+    "Khazard": {
+        "Name": "Khazard",
+        "Description": "Khazard can control enemies on the battlefield by freezing them.",
+        "Class": "Mage",
+        "Role": "DPS, CC",
+        "Type": "Intelligence",
+        "Faction": "Hypogean",
+        "Tier": "Ascended"
+    },
+    "Zolrath": {
+        "Name": "Zolrath",
+        "Description": "Zolrath is a unique hero that bends the rules of time to overcome his enemies. He will become more powerful as the battle progresses.",
+        "Class": "Warrior",
+        "Role": "Assassin, Sustain DPS",
+        "Type": "Agility",
+        "Faction": "Hypogean",
+        "Tier": "Ascended"
+    },
+    "Ezizh": {
+        "Name": "Ezizh",
+        "Description": "Ezizh provides passive energy regen, a mind control and can delay enemies ultimate abilities.",
+        "Class": "Support",
+        "Role": "Support, Tank, CC",
+        "Type": "Strength",
+        "Faction": "Hypogean",
+        "Tier": "Ascended"
+    },
+    "Mehira": {
+        "Name": "Mehira",
+        "Description": "Mehira can leech the life from her enemies, mind control them and buff allies with energy & haste.",
+        "Class": "Mage",
+        "Role": "DPS, CC, Tank",
+        "Type": "Intelligence",
+        "Faction": "Hypogean",
+        "Tier": "Ascended"
+    }
+}
