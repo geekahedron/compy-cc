@@ -1,4 +1,4 @@
-import * as config from '@config';
+var config = require('./config.json');
 
 var express = require('express');
 var exphbs = require('express-handlebars');
@@ -11,7 +11,7 @@ var usersRouter = require('./routes/users');
 
 var mongoClient = require("mongodb").MongoClient;
 mongoClient.connect(`mongodb://${config.mongoDBUser}:${config.mongoDBKey}@${config.mongoDBEndpoint}.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=${config.mongoDBAppName}`, { useUnifiedTopology: true })
-    .catch((err: string, client: any) => {
+    .catch((err, client) => {
         client.close();
     });
 
